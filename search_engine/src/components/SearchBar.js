@@ -4,6 +4,7 @@ class SearchBar extends React.Component {
 
     state = { term: '' };
 
+    //Calls onSubmit function which uses term to fetch results from unsplash api
     onFormSubmit = (e) => {
         e.preventDefault();
 

@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+//Website and auth code for unsplash api
 export default axios.create({
     baseURL: 'https://api.unsplash.com',
     headers: {
